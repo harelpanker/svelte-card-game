@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+@layer base {
+	@font-face {
+		font-family: 'satoshi';
+		src: local('satoshi'), url('/fonts/satoshi.ttf');
+		font-weight: variable;
+		font-display: swap;
+	}
+}
